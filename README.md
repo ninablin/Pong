@@ -12,12 +12,12 @@ This is an advanced 3D version of the game [Pong](https://en.wikipedia.org/wiki/
 Image 1: Traditional 2D Pong Game
 
 
-![Game demo](https://github.com/intro-graphics/team-project-ylw/blob/master/assets/demo.gif)
+![Game demo](https://github.com/ninablin/Pong/blob/master/assets/demo.gif)
 
 Image 2: Demo of our game
 
 
-![Game demo](https://github.com/intro-graphics/team-project-ylw/blob/master/assets/rain-demo.gif)
+![Game demo](https://github.com/ninablin/Pong/blob/master/assets/rain-demo.gif)
 
 Image 3: Rain simulation
 
