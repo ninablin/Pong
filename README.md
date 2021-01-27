@@ -1,37 +1,55 @@
-# `Pong` 
-> Created by Yifu Yuan, Bing Lin, Sirui Wang
+# `YLW - Pong` 
+> Group project for CS 174A Introduction to Computer Graphics
+>
+## Group Members
+Yifu Yuan, Bing Lin, Sirui Wang
 
 ## Overview
-We will be making an advanced 3D version of the game [Pong](https://en.wikipedia.org/wiki/Pong) (Image 1). The goal of the game is to use a board to bounce back a ball and hold on until the bouncing ball goes to the opponent’s end of the stage. The game is designed for two players, who will each take control over a board through key/button press detection. 
-
-To make the 3D Pong more attractive, we will add advanced features such as ball variation, environment change and enable additional horizontal movement of player boards. These advanced feature designs will be detailed below.
+This is an advanced 3D version of the game [Pong](https://en.wikipedia.org/wiki/Pong) (Image 1). The goal of the game is to use a board to bounce back a ball and hold on until the bouncing ball goes to the opponent’s end of the stage. The game is designed for two players, who will each take control over a board through key/button press detection. 
 
 ![Pong Game](https://i.pinimg.com/originals/f1/22/c3/f122c306a0ce2fec19b5c37e4d459e9f.gif)
 
 Image 1: Traditional 2D Pong Game
 
-### Interactivity(Subject to Change)
 
-- Two players will each have control over a board mainly with keyboard shortcut (also accessible through mouse click).
-- Different from the traditional 2D game, where players can only move vertically, our version would enable players to move slightly in horizontal direction to increase the speed and alter the angle of the ball.
-- The scores of players will be displayed with special effects such as rotation/scaling/change of color.
-- The environment will most likely be set on a lawn where grass will appear to be moving with random breeze.
-- The sun will be moving with time; with the source of light changing, the shadows and lightness will also be affected.
-- Potential environment system, i.e. raining.
-- During each collision of the ball, the shape/material/trace/lighting of the ball will have a chance to change.
-- To challenge more experienced or accommodate new Pong players, three levels of ball speed are available to choose with the default being medium speed.
-- Add music at collision/goal and as BGM.
+![Game demo](https://github.com/intro-graphics/team-project-ylw/blob/master/assets/demo.gif)
 
-### Advanced Features
-- Simple Collision Detection (Done)
+Image 2: Demo of our game
+
+
+![Game demo](https://github.com/intro-graphics/team-project-ylw/blob/master/assets/rain-demo.gif)
+
+Image 3: Rain simulation
+
+
+### Description
+- Two players take control over keyboard in turn.
+- The appearance of the score tracking plate changes when either side score a point.
+- The environment is set on a lawn where the grass is moving with random breeze.
+- The lighting and texture of the game scene changes when rain simulation is on.
+- The appearance of the ball changes after each collision
+- Play music at collision/goal or turn play button on as BGM.
+
+### Key Features
+- Simple Collision Detection
+    - Detect collision between the ball, two players and the arena boundary
 - Scene Graphics
-- Shadows (Working on)
-- Particle System, e.g., rain
+- Environmental System 
+    - Rain simulation
 
-### Games for inspiration
-[Pong](https://en.wikipedia.org/wiki/Pong)
+### Controls
+- Press `q` to start a new round. 
 
-[Stikbold!](https://www.stikbold.com/)
+- Use the `t` and `g` to control the movement of the left player.
+
+- Use the `i` and `k` to control the movement of the left player.
+
+- To simulate rain, press the button `p`
+
+- To play background music, press the button `l`
+
+
+
 
 ## tiny-graphics.js
 This is a small, single file JavaScript utility.  It organizes WebGL programs to be object-oriented and minimally cluttered.  
