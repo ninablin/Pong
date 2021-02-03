@@ -14,7 +14,7 @@ Image 1: Traditional 2D Pong Game
 
 ![Game demo](https://github.com/ninablin/Pong/blob/master/assets/demo.gif)
 
-Image 2: Demo of our game
+Image 2: Game Demo
 
 
 ![Game demo](https://github.com/ninablin/Pong/blob/master/assets/rain-demo.gif)
