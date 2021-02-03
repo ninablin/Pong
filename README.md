@@ -1,4 +1,4 @@
-# `YLW - Pong` 
+# `Pong` 
 > Group project for CS 174A Introduction to Computer Graphics
 >
 ## Group Members
