@@ -5,7 +5,7 @@
 Yifu Yuan, Bing Lin, Sirui Wang
 
 ## Overview
-This is an advanced 3D version of the game [Pong](https://en.wikipedia.org/wiki/Pong) (Image 1). The goal of the game is to use a board to bounce back a ball and hold on until the bouncing ball goes to the opponent’s end of the stage. The game is designed for two players, who will each take control over a board through key/button press detection. 
+This is an advanced 3D version of the game [Pong](https://en.wikipedia.org/wiki/Pong) (Image 1). The game's goal is to use a board to bounce back a ball and hold on until the bouncing ball goes to the opponent's end of the stage. The game is designed for two players, that will each take control over a board through key/button press detection.
 
 ![Pong Game](https://i.pinimg.com/originals/f1/22/c3/f122c306a0ce2fec19b5c37e4d459e9f.gif)
 
